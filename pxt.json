@@ -10,18 +10,8 @@
         "main.blocks",
         "main.py",
         "tsconfig.json",
-        "test.ts",
-        "README.md",
-        ".vscode/settings.json",
-        ".vscode/tasks.json",
-        "main.blocks",
-        "main.ts",
         ".simstate.json",
-        "main.py",
         ".git.json"
-    ],
-    "testFiles": [
-        "test.ts"
     ],
     "targetVersions": {
         "target": "4.0.11",
@@ -30,5 +20,16 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "pyprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
 }
