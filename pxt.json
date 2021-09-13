@@ -9,9 +9,7 @@
     "files": [
         "main.blocks",
         "main.py",
-        "tsconfig.json",
-        ".simstate.json",
-        ".git.json"
+        "tsconfig.json"
     ],
     "targetVersions": {
         "target": "4.0.11",
