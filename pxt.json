@@ -1,0 +1,34 @@
+{
+    "name": "maqueenLibTest",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*",
+        "maqueen": "github:dfrobot/pxt-maqueen#v1.5.9"
+    },
+    "files": [
+        "main.blocks",
+        "main.py",
+        "tsconfig.json",
+        "test.ts",
+        "README.md",
+        ".vscode/settings.json",
+        ".vscode/tasks.json",
+        "main.blocks",
+        "main.ts",
+        ".simstate.json",
+        "main.py",
+        ".git.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.11",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
